@@ -3,6 +3,7 @@
     <head>
         <title>COMPANY</title>
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
     </head>
     <body>
         <header class="header">
@@ -14,5 +15,63 @@
                 <li>ABOUT US</li>
             </ul>
         </header>
+        
+        <section class="main-section">
+            <div class="my-slider">
+                <div class="slide-1">
+                    <div class="slide-content">
+                        <div class="slide-heading">
+                            <span>META CONSECTETUS</span>
+                        </div>
+                        <div class="slide-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut accumsan urna urna, et lacinia magna venenatis at.
+                        </div>
+                        <div class="slide-button">
+                            <button class="button">LEARN MORE <span style="color: black;position: relative;left: 60px;font-size: 1.2em ;font-weight: 100;">></span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-2">
+                    <div class="slide-content">
+                        <div class="slide-heading">
+                            <span>LOREM IPSUM</span>
+                        </div>
+                        <div class="slide-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc hendrerit finibus neque, non eleifend libero euismod vel. Pellentesque eget imperdiet enim, ac tincidunt metus.Nulla varius vitae mi vitae finibus. Nam ac lectus sit amet velit iaculis vulputate. Morbi porta tempus diam, ut tincidunt sem interdum nec. Maecenas et elit varius, vehicula augue non, pulvinar quam. Sed felis erat, pharetra ut orci vel, bibendum dictum nisi.
+                        </div>
+                        <div>
+                            <button class="button">LEARN MORE <span style="color: black; text-align: right;">></span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-3">
+                    <div class="slide-content">
+                        <div class="slide-heading">
+                            <span>META CONSECTETUS</span>
+                        </div>
+                        <div class="slide-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut accumsan urna urna, et lacinia magna venenatis at.
+                        </div>
+                        <div>
+                            <button class="button">LEARN MORE ></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+        <script>
+            var slider = tns({
+              container: '.my-slider',
+              items: 1,
+              mode: 'carousel',
+              controls: false,
+              nav: true,
+              navPosition: 'bottom',
+              navAsThumbnails: true
+            });
+        </script>
     </body>
 </html>
