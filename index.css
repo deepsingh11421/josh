@@ -33,12 +33,15 @@ body {
 
 .main-section {
     width: 958px;
+    /* width: 1200px; */
     margin: auto;
 }
 
 .my-slider {
     position: relative;
     top: -10px;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 5px grey;
 }
 
 .tns-nav button {
@@ -46,18 +49,14 @@ body {
     z-index: 10;
     top: -35px;
     left: 93%;
-    /* border: 1px solid grey; */
     background-image: url('./assets/button.png');
-    /* background-size: cover; */
     border: none;
     height: 10px;
     border-radius: 50%;
-    /* background-color: grey; */
     margin: 0px 2px;
 }
 
 .tns-nav-active {
-    /* background-color: white !important; */
     background-image: url('./assets/button-act.png') !important;
 }
 
@@ -82,7 +81,6 @@ body {
     left: 630px;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
     justify-content: center;
     padding: 0px 20px;
     height: 386px;
@@ -107,8 +105,6 @@ body {
 .slide-text {
     color: grey;
     height: 128px;
-    text-overflow: ellipsis;
-    /* white-space: nowrap; */
     overflow: hidden;
 }
 
@@ -120,4 +116,108 @@ body {
     color: green;
     font-weight: bold;
     padding: 8px 20px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.lifestyle {
+    padding: 25px 0px 25px 25px;
+    box-sizing: border-box;
+    width: 100%;
+    background-image: url('./assets/lifestyle_box_bg.jpg');
+    background-size: contain;
+    border: 1px solid lightgrey;
+}
+
+.hr {
+    color: green;
+    background-color: green;
+}
+
+.head {
+    color: green;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.lifestyle-content {
+    display: flex;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.lifestyle-content p {
+    margin-top: 0px;
+}
+
+.lifestyle-section1 {
+    width: 300px;
+    position: relative;
+    color: grey;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+.lifestyle-section1 button {
+    position: absolute;
+    bottom: 0;
+}
+
+.lifestyle-section2 {
+    display: flex;
+    flex-grow: 1;
+    width: 683px;
+}
+
+.ls2-sub {
+    box-sizing: border-box;
+    flex-grow: 1;
+    border-left: 1px solid lightgrey;
+}
+
+.sub-head {
+    padding-left: 20px;
+    color: grey;
+}
+
+.sub-flex {
+    display: flex;
+    width: 100%;
+}
+
+.sub-flex > div {
+    flex-grow: 1;
+    border-right: 1px solid lightgrey;
+    padding: 0px 10px;
+    /* width: 218px; */
+    width: 150px;
+    box-sizing: border-box;
+}
+
+.section3 {
+    display: flex;
+    margin: 25px 0px;
+    justify-content: space-between;
+    color: grey;
+}
+
+.customer {
+    width: 60%;
+    font-size: 0.8rem;
+}
+
+.news {
+    width: 35%;
+}
+
+.article {
+    font-size: 0.8rem;
+}
+
+.article-head {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
