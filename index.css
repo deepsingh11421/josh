@@ -221,3 +221,30 @@ body {
     font-weight: bold;
     margin-bottom: 5px;
 }
+
+.section4 {
+    background-image: url('./assets/lifestyle_box_bg.jpg');
+    border: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.section4 img:hover {
+    cursor: pointer;
+}
+
+.photo {
+    margin: 20px 0px;
+    width: 40%;
+}
+
+.video {
+    margin: 20px 0px;
+    width: 40%;
+}
+
+.section4-content {
+    padding: 0px 10px;
+    font-size: 0.8rem;
+}
