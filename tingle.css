@@ -19,7 +19,7 @@
   align-items: center;
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
-  background: rgba(0, 0, 0, .85);
+  background: rgba(0, 0, 0, .75);
   opacity: 0;
   user-select: none;
   cursor: pointer;
@@ -284,7 +284,7 @@
     bottom: 0;
     left: 0;
     content: "";
-    backdrop-filter: blur(18px);
+    backdrop-filter: blur(4px);
     pointer-events: none;
   }
 

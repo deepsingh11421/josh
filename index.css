@@ -248,3 +248,33 @@ body {
     padding: 0px 10px;
     font-size: 0.8rem;
 }
+
+.footer {
+    background-image: url('./assets/footer_bg.jpg');
+    height: 100px;
+    display: flex;
+    font-size: 0.8rem;
+    color: lightgray;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer ul {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.footer a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.footer li {
+    display: inline;
+    padding: 0px 7px;
+}
+
+.footer-rights {
+    margin: 20px 0px;
+}
