@@ -337,8 +337,8 @@
       this.modalCloseBtnLabel.classList.add('tingle-modal__closeLabel')
       this.modalCloseBtnLabel.innerHTML = this.opts.closeLabel
 
-      this.modalCloseBtn.appendChild(this.modalCloseBtnIcon)
-      this.modalCloseBtn.appendChild(this.modalCloseBtnLabel)
+      // this.modalCloseBtn.appendChild(this.modalCloseBtnIcon)
+      // this.modalCloseBtn.appendChild(this.modalCloseBtnLabel)
     }
 
     // modal
@@ -352,7 +352,7 @@
     this.modalBox.appendChild(this.modalBoxContent)
 
     if (this.opts.closeMethods.indexOf('button') !== -1) {
-      this.modal.appendChild(this.modalCloseBtn)
+      this.modalBox.appendChild(this.modalCloseBtn)
     }
 
     this.modal.appendChild(this.modalBox)

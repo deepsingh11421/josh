@@ -47,13 +47,13 @@ body {
 .tns-nav button {
     position: relative;
     z-index: 10;
-    top: -35px;
-    left: 93%;
+    top: -38px;
+    left: 94.8%;
     background-image: url('./assets/button.png');
     border: none;
     height: 10px;
     border-radius: 50%;
-    margin: 0px 2px;
+    margin: 0px 1.5px;
 }
 
 .tns-nav-active {
@@ -82,9 +82,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0px 20px;
+    padding: 0px 35px;
     height: 386px;
-    width: 300px;
+    width: 270px;
 }
 
 .slide-content > div {
@@ -105,17 +105,25 @@ body {
 .slide-text {
     color: grey;
     height: 128px;
+    position: relative;
+    top: -13px;
     overflow: hidden;
+}
+
+.slide-button {
+    position: relative;
+    top: -37px;
 }
 
 .button {
     background-color: white;
-    width: 200px;
+    width: 177px;
     text-align: left;
     border: 1px solid rgb(104, 228, 104);
     color: green;
+    font-size: 0.8rem;
     font-weight: bold;
-    padding: 8px 20px;
+    padding: 6px 15px;
 }
 
 .button:hover {
@@ -123,7 +131,7 @@ body {
 }
 
 .lifestyle {
-    padding: 25px 0px 25px 25px;
+    padding: 25px 0px 25px 30px;
     box-sizing: border-box;
     width: 100%;
     background-image: url('./assets/lifestyle_box_bg.jpg');
@@ -131,9 +139,14 @@ body {
     border: 1px solid lightgrey;
 }
 
+.lifestyle hr {
+    margin-left: 0px;
+}
+
 .hr {
     color: green;
     background-color: green;
+    margin-left: 0px;
 }
 
 .head {
@@ -201,6 +214,12 @@ body {
     margin: 25px 0px;
     justify-content: space-between;
     color: grey;
+    line-height: 1.6;
+}
+
+.section3 hr {
+    position: relative;
+    top: -6px;
 }
 
 .customer {
@@ -208,18 +227,35 @@ body {
     font-size: 0.8rem;
 }
 
+.customer img {
+    position: relative;
+    left: -10px;
+}
+
+.customer-content {
+    position: relative;
+    top: 5px;
+}
+
 .news {
-    width: 35%;
+    width: 32%;
 }
 
 .article {
     font-size: 0.8rem;
+    margin: 10px 0px;
+    line-height: 2;
 }
 
 .article-head {
     color: green;
     font-weight: bold;
     margin-bottom: 5px;
+}
+
+.article-date {
+    position: relative;
+    top: -5px;
 }
 
 .section4 {
@@ -230,23 +266,50 @@ body {
     flex-wrap: wrap;
 }
 
+.section4 hr {
+    position: relative;
+    top: -5px;
+}
+
 .section4 img:hover {
     cursor: pointer;
 }
 
 .photo {
-    margin: 20px 0px;
-    width: 40%;
+    margin: 20px 0px 15px 0px;
+    width: 39%;
+}
+
+.photo-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.photo-img img {
+    margin: 10px 0px;
 }
 
 .video {
-    margin: 20px 0px;
-    width: 40%;
+    margin: 20px 0px 15px 0px;
+    width: 39%;
+}
+
+.video-vid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.video-vid img {
+    margin: 10px 0px;
 }
 
 .section4-content {
     padding: 0px 10px;
     font-size: 0.8rem;
+    line-height: 1.6;
+    /* margin-bottom: 5px; */
 }
 
 .footer {
