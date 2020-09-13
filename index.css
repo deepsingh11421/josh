@@ -4,6 +4,39 @@ body {
     background-image: url('./assets/main_bg.jpg');
 }
 
+.main-section {
+    width: 958px;
+    margin: auto;
+}
+
+.button {
+    background-color: white;
+    width: 177px;
+    text-align: left;
+    border: 1px solid rgb(104, 228, 104);
+    color: green;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 6px 15px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.hr {
+    color: green;
+    background-color: green;
+    margin-left: 0px;
+}
+
+.head {
+    color: green;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+/* Header */
 .header {
     background-color: black;
     background-image: url('./assets/header_bg01.png');
@@ -31,12 +64,7 @@ body {
     color: rgb(153, 152, 152);
 }
 
-.main-section {
-    width: 958px;
-    /* width: 1200px; */
-    margin: auto;
-}
-
+/* Section 1 */
 .my-slider {
     position: relative;
     top: -10px;
@@ -115,21 +143,7 @@ body {
     top: -37px;
 }
 
-.button {
-    background-color: white;
-    width: 177px;
-    text-align: left;
-    border: 1px solid rgb(104, 228, 104);
-    color: green;
-    font-size: 0.8rem;
-    font-weight: bold;
-    padding: 6px 15px;
-}
-
-.button:hover {
-    cursor: pointer;
-}
-
+/* Section 2 */
 .lifestyle {
     padding: 25px 0px 25px 30px;
     box-sizing: border-box;
@@ -141,18 +155,6 @@ body {
 
 .lifestyle hr {
     margin-left: 0px;
-}
-
-.hr {
-    color: green;
-    background-color: green;
-    margin-left: 0px;
-}
-
-.head {
-    color: green;
-    font-weight: 500;
-    font-size: 1.2rem;
 }
 
 .lifestyle-content {
@@ -204,11 +206,12 @@ body {
     flex-grow: 1;
     border-right: 1px solid lightgrey;
     padding: 0px 10px;
-    /* width: 218px; */
     width: 150px;
     box-sizing: border-box;
 }
 
+
+/* Section 3 */
 .section3 {
     display: flex;
     margin: 25px 0px;
@@ -258,6 +261,7 @@ body {
     top: -5px;
 }
 
+/* Section 4 */
 .section4 {
     background-image: url('./assets/lifestyle_box_bg.jpg');
     border: 1px solid lightgrey;
@@ -309,12 +313,13 @@ body {
     padding: 0px 10px;
     font-size: 0.8rem;
     line-height: 1.6;
-    /* margin-bottom: 5px; */
 }
 
+/* Footer */
 .footer {
     background-image: url('./assets/footer_bg.jpg');
     height: 100px;
+    margin-top: 30px;
     display: flex;
     font-size: 0.8rem;
     color: lightgray;

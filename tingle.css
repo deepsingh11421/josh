@@ -54,23 +54,8 @@
   height: 27px;
   border: none;
   background-color: transparent;
-  color: rgb(131, 55, 55);
   cursor: pointer;
 }
-
-/* .tingle-modal__close {
-  position: fixed;
-  top: 2.5rem;
-  right: 2.5rem;
-  z-index: 1000;
-  padding: 0;
-  width: 2rem;
-  height: 2rem;
-  border: none;
-  background-color: transparent;
-  color: rgb(131, 55, 55);
-  cursor: pointer;
-} */
 
 .tingle-modal__close svg * {
   fill: currentColor;
@@ -214,6 +199,7 @@
   width: 50px;
   top: 40%;
   left: -80px;
+  cursor: pointer;
 }
 
 .next {
@@ -225,6 +211,7 @@
   border-radius: 50%;
   top: 40%;
   right: -80px;
+  cursor: pointer;
 }
 
 /* responsive
